@@ -1,0 +1,41 @@
+#FINTECH PROBLEMS TO TRY AND SOLVE
+1. **Simple Interest Calculator**: 
+Create a console application that calculates the simple interest on a loan or investment. 
+Prompt the user to input the principal amount, interest rate, and duration, then calculate and display the total amount payable or the interest earned.
+
+2. **Currency Converter**: 
+Develop a program that converts an amount from one currency to another based on the current exchange rate. 
+Use methods to encapsulate the conversion logic and provide options for the user to select the currencies.
+
+3. **Credit Card Validator**: 
+Build a program that validates credit card numbers using the Luhn algorithm. 
+Prompt the user to input a credit card number and verify whether it's valid or not.
+
+4. **Stock Price Tracker**: 
+Create a program that tracks the price of a particular stock over time. 
+Use loops to fetch the stock price from an API at regular intervals and display it to the user. You can use a mock API or a real one if available.
+
+5. **Budget Planner**: 
+Develop a console application that helps users plan their monthly budget. 
+Prompt the user to input their income and various expenses (e.g., rent, groceries, utilities), then calculate and display the remaining balance.
+
+6. **Loan Amortization Schedule Generator**:
+Build a program that generates an amortization schedule for a loan. 
+Prompt the user to input the loan amount, interest rate, and duration, then calculate and display the monthly payments, interest paid, and remaining balance for each period.
+
+7. **ATM Simulator**: 
+Create a simple ATM simulator that allows users to check their balance, deposit funds, withdraw cash, and transfer money between accounts. 
+Use methods to encapsulate each transaction and loops to provide a menu-based interface.
+
+8. **Mortgage Calculator**: 
+Develop a program that calculates the monthly mortgage payments for a home loan. 
+Prompt the user to input the loan amount, interest rate, and duration, then calculate and display the monthly payments including principal and interest.
+
+9. **Investment Portfolio Tracker**: 
+Build a program that tracks the performance of a user's investment portfolio over time. 
+Allow users to input their investments (e.g., stocks, bonds, mutual funds) and their respective quantities and purchase prices, then calculate and display the total portfolio value and returns.
+
+10. **Expense Tracker**: 
+Create a program that helps users track their daily expenses. 
+Allow users to input their expenses for various categories (e.g., dining, transportation, entertainment
+Calculate and display their total spending for each category and overall.

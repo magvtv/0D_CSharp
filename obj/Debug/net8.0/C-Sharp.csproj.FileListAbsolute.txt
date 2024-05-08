@@ -1,0 +1,14 @@
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\bin\Debug\net8.0\C-Sharp.exe
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\bin\Debug\net8.0\C-Sharp.deps.json
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\bin\Debug\net8.0\C-Sharp.runtimeconfig.json
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\bin\Debug\net8.0\C-Sharp.dll
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\bin\Debug\net8.0\C-Sharp.pdb
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.AssemblyInfoInputs.cache
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.AssemblyInfo.cs
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.csproj.CoreCompileInputs.cache
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.dll
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\refint\C-Sharp.dll
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.pdb
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.genruntimeconfig.cache
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\ref\C-Sharp.dll
