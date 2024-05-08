@@ -12,3 +12,4 @@ C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\ref
 C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.pdb
 C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.genruntimeconfig.cache
 C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\ref\C-Sharp.dll
+C:\Users\ph.magutu\OneDrive\Desktop\PYCS Experience\C-Sharp\obj\Debug\net8.0\C-Sharp.sourcelink.json
