@@ -6,13 +6,13 @@ using System.Runtime.CompilerServices;
 
 namespace Practice
 {
-    class Person
+    class Matatu
     {
-        private string fullName = "John Doe"; //field
-        public string Name //property
+        private string matatuSacco = "WALOKANA"; //field
+        public string MatatuSacco //property
         {
-            get { return fullName; }
-            set { fullName = value; }
+            get { return matatuSacco; }
+            set { matatuSacco = value; }
         }
     }
 
@@ -20,9 +20,9 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            Person man1 = new Person();
-            man1.Name = "Nicholas Cage";
-            Console.WriteLine(man1.Name);         
+            Matatu mat1 = new Matatu();
+            mat1.matatSacco = "LANKANA";
+            Console.WriteLine(mat1.MatatuSacco);         
         }
     }
 }
