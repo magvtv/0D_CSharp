@@ -3,38 +3,110 @@ using System.Linq;
 using System.Text;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.IO;
 
 namespace Learning
 {
-    class Timepiece
+    // class Smartphone
+    // {
+    //     public string Brand { get; set; }
+    //     public string Model { get; set; }
+    //     public decimal Price { get; set; }
+
+    //     // constructor to init the field properties
+    //     public Smartphone(string brand, string model, decimal price)
+    //     {
+    //             Brand = brand;
+    //             Model = model;
+    //             Price = price;
+    //     }
+
+    //     public void phoneSummary()
+    //     {
+    //         return $"Phone: {brand}\nModel: {model}\nPrice in KES: {price}";
+    //     }
+    // }
+
+    // class Program
+    // {
+    //     public static void Main(string[] args)
+    //     {
+    //         Console.Write("Enter brand: ");
+    //         string brand = Console.ReadLine();
+
+    //         Console.Write("Enter model: ");
+    //         string model = Console.ReadLine();
+
+    //         Console.Write("Enter price (KES): ");
+    //         decimal price;
+    //         while (!decimal.TryParse(Console.ReadLine(), out price) || price < 0)
+    //         {
+    //             Console.WriteLine("Price should not be less than zero!");
+    //             Console.Write("Enter price (KES): ");
+    //         }
+
+
+
+    //         Smartphone smartphone = new Smartphone(brand, model, price);
+    //         string filePath = "Data/phones.txt";
+
+    //         using (StreamWriter writer = File.AppendText(filePath))
+    //         {
+    //             writer.WriteLine(smartphone.ToString());
+    //         }
+
+    //         smartphone.phoneSummary();
+    //         Console.WriteLine("Device saved to data folder!");
+    //     }
+    // }
+
+    class Dog
     {
-        // public string model, type, price;
+        // string Name; 
+        // string Breed;
+        // int Age;
 
-        // Learning constructors
-        // public Timepiece(string modelName, string typeName, string priceTag)
+        // public Dog(string breed, string dogName, int age)
         // {
-        //     model = modelName;
-        //     type = typeName;
-        //     price = priceTag;
-        // }
-
-        // public void watchSummary()
+        //     Name = dogName;
+        //     Breed = breed;
+        //     Age = age;
+        // } 
+        // public void dogSummary(string breed, string dogName, int age)
         // {
-        //     Console.WriteLine("Watch Summary:");
-        //     Console.WriteLine($"{model}, {type}, {price}");
+        //     Console.WriteLine($"Dog Details\nName: {dogName} \nBreed: {breed}\nAge: {age}");
         // }
+    }
 
-        static void Main(string[] args)
+    class Program
+    {
+        public static void Main(string[] args)
         {
-        //     Timepiece TAGHeuer = new Timepiece("Carrera", "Chronograph", "USD $4,500");
-        //     Timepiece Seiko = new Timepiece("SARB033", "Quartz", "USD $43,090");
-        //     Timepiece Citizen = new Timepiece("Eco-Drive Promaster Diver", "Solar-Powered Quartz", "USD $1,825");
-        //     Timepiece AppleWatch = new Timepiece("Series 6", "Digital", "USD $10,220");
-            // Timepiece Hamilton = new Timepiece("Khaki", "Field", "USD $673");
+            int[] numList = { 32, 43, 5, 3, 93, 85, 12 };
+            int maxNum, minNum; 
+            maxNum = numList[0];
+            minNum = numList[0];
+            for (int x = 0; x < numList.Length; x++)
+            {
+                if (numList[x] > maxNum)
+                {
+                    maxNum = numList[x];
+                }
+                else if (numList[x] < minNum)
+                {
+                    minNum = numList[x];
+                }
+            }
 
-            // Console.WriteLine(AppleWatch.model);
-
-            // Patek.watchSummary();
+            Console.WriteLine($"Largest number is {maxNum} the smallest being {minNum}");
+            // int[][] weirdArray = new int[2][];
+            // weirdArray[0] = new int[] { 1, 3, 5 };
+            // weirdArray[1] = new int[] { 2, 4, 6 };
+            // Console.WriteLine(weirdArray[1][1]);
+            // Dog dog1 = new Dog("Cleo", "Poodle", 2);
+            // Dog dog2 = new Dog("Reeko", "Beagle", 3);
+            // Console.WriteLine(dog2);
         }
     }
+    
 }
