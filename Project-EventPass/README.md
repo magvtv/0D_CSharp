@@ -1,9 +1,9 @@
 # Event Ticketing Service
-> This file is frequently updated, readers discretion is advised.  
-- Trying to simulate this with C# and embracing object-oriented programming.
-- Project to be developed in three phases in a span of one weeks
-- 
 
+> This file is frequently updated, readers discretion is advised.  
+
+- Trying to simulate this with C# and embracing object-oriented programming.
+- Project to be developed in three phases in a span of one weeks.
 
 ## Project Breakdown
 
@@ -48,14 +48,14 @@ Purchasing of tickets
 The constructors, properties, methods
 Considering learning inheritance, interfaces and composition today to model relationships (for the classes).
 
-3. Data Access Layer
+3. Data Access Layer:
 
-Later on, thinking of having a database / other data storage mechanism
-Entity framework or ADO.NET for querying and manipulating data. 
+Later on, thinking of having a database / other data storage mechanism.
+Entity framework or ADO.NET for querying and manipulating data.
 
-4. User Interface
+4. Others:
 
-
-5. Testing & Debugging
-6. Deployment
-7. Maintainance & Updates
+- User Interface.
+- Testing & Debugging.
+- Deployment.
+- Maintainance & Updates.
