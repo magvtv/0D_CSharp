@@ -1,2 +1,5 @@
-/bin
-/obj
+bin/
+obj/
+C-Sharp.csproj
+C-Sharp.sin
+csharp.txt
