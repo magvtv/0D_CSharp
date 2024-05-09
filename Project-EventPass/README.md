@@ -45,3 +45,17 @@
 
 Listing available events across Nairobi
 Purchasing of tickets
+The constructors, properties, methods
+Considering learning inheritance, interfaces and composition today to model relationships (for the classes).
+
+3. Data Access Layer
+
+Later on, thinking of having a database / other data storage mechanism
+Entity framework or ADO.NET for querying and manipulating data. 
+
+4. User Interface
+
+
+5. Testing & Debugging
+6. Deployment
+7. Maintainance & Updates
