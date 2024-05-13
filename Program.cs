@@ -60,27 +60,42 @@ namespace Learning
     //     }
     // }
 
-    class Dog
-    {
-        public void dogSummary(string dogName, string breed, int age)
-        {
-            Console.WriteLine($"Dog Details\nName: {dogName} \nBreed: {breed}\nAge: {age}");
-        }
-    }
+    // class Dog
+    // {
+    //     public void dogSummary(string dogName, string breed, int age)
+    //     {
+    //         Console.WriteLine($"Dog Details\nName: {dogName} \nBreed: {breed}\nAge: {age}");
+    //     }
+    // }
 
     class Program
     {
         public static void Main(string[] args)
         {
-            List<string> employees = new List<string> () {
-                "Dwayne",
-                "Tasha",
-                "Yogira",
-                "Laorea",
-            };
-        
-            Console.WriteLine(employees);
 
+            // DATA STRUCTURES
+            // List<string> employees = new List<string> () {
+            //     "Dwayne",
+            //     "Tasha",
+            //     "Yogira",
+            //     "Laorea",
+            // };
+            // employees.Add("Priscilla");
+            // Console.WriteLine(employees[4]);
+
+
+            // Dictionary<string, int> cityPopulation = new Dictionary<string, int>();
+            // cityPopulation.Add("Tokyo", 37435191);
+            // cityPopulation.Add("Delhi", 29399141);
+            // cityPopulation.Add("Shanghai", 26317104);
+            // cityPopulation.Add("Mexico City", 21671908);
+            // cityPopulation.Add("Cairo", 20283552);
+
+            // for (int x = 0; x < cityPopulation.Count; x++)
+            // {
+            //     Console.WriteLine("{0}: Population of {1}", cityPopulation.ElementAt(x).Key, cityPopulation.ElementAt(x).Value.ToString("N0"));
+
+            // }
             // string readText = File.ReadAllText("spotify.txt");
             // Console.WriteLine(readText);
             // File.Delete("spotify.txt");
@@ -104,6 +119,9 @@ namespace Learning
             // weirdArray[0] = new int[] { 1, 3, 5 };
             // weirdArray[1] = new int[] { 2, 4, 6 };
             // Console.WriteLine(weirdArray[1][1]);
+
+            
+            
         }
     }
     
