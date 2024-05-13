@@ -62,50 +62,48 @@ namespace Learning
 
     class Dog
     {
-        // string Name; 
-        // string Breed;
-        // int Age;
-
-        // public Dog(string breed, string dogName, int age)
-        // {
-        //     Name = dogName;
-        //     Breed = breed;
-        //     Age = age;
-        // } 
-        // public void dogSummary(string breed, string dogName, int age)
-        // {
-        //     Console.WriteLine($"Dog Details\nName: {dogName} \nBreed: {breed}\nAge: {age}");
-        // }
+        public void dogSummary(string dogName, string breed, int age)
+        {
+            Console.WriteLine($"Dog Details\nName: {dogName} \nBreed: {breed}\nAge: {age}");
+        }
     }
 
     class Program
     {
         public static void Main(string[] args)
         {
-            int[] numList = { 32, 43, 5, 3, 93, 85, 12 };
-            int maxNum, minNum; 
-            maxNum = numList[0];
-            minNum = numList[0];
-            for (int x = 0; x < numList.Length; x++)
-            {
-                if (numList[x] > maxNum)
-                {
-                    maxNum = numList[x];
-                }
-                else if (numList[x] < minNum)
-                {
-                    minNum = numList[x];
-                }
-            }
+            List<string> employees = new List<string> () {
+                "Dwayne",
+                "Tasha",
+                "Yogira",
+                "Laorea",
+            };
+        
+            Console.WriteLine(employees);
 
-            Console.WriteLine($"Largest number is {maxNum} the smallest being {minNum}");
+            // string readText = File.ReadAllText("spotify.txt");
+            // Console.WriteLine(readText);
+            // File.Delete("spotify.txt");
+            // int[] numList = { 32, 43, 5, 3, 93, 85, 12 };
+            // int maxNum, minNum; 
+            // maxNum = numList[0];
+            // minNum = numList[0];
+            // for (int x = 0; x < numList.Length; x++)
+            // {
+            //     if (numList[x] > maxNum)
+            //     {
+            //         maxNum = numList[x];
+            //     }
+            //     else if (numList[x] < minNum)
+            //     {
+            //         minNum = numList[x];
+            //     }
+            // }
+            // Console.WriteLine($"Largest number is {maxNum} the smallest being {minNum}");
             // int[][] weirdArray = new int[2][];
             // weirdArray[0] = new int[] { 1, 3, 5 };
             // weirdArray[1] = new int[] { 2, 4, 6 };
             // Console.WriteLine(weirdArray[1][1]);
-            // Dog dog1 = new Dog("Cleo", "Poodle", 2);
-            // Dog dog2 = new Dog("Reeko", "Beagle", 3);
-            // Console.WriteLine(dog2);
         }
     }
     
