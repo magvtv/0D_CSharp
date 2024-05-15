@@ -1,72 +1,101 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Reflection;
 
 
+class Artwork
+{
+    public string Title { get; set; }
+    public string Summary { get; set; }
+}
+
+class Artist
+{
+    public string Name { get; set; }
+    public Dictionary <string, Artwork> Artworks { get; set; }
+    public Artist(string name)
+    {
+        Name = name;
+        Artworks = new Dictionary<string, Artwork>();
+    }
+
+    public void AddArtwork (string title, string summary)
+    {
+        Artworks[title] = new Artwork { Title = title, Summary = summary };
+    }
+}
+
+
+class Renaissance
+{
+    private Dictionary<string, Artist> artists;
+    public Renaissance()
+    {
+        artists = new Dictionary<string, Artist> ();
+    }
+
+    public void AddArtist()
+    {
+
+    }
+
+    public void AddArtwork()
+    {
+
+    }
+    public void ShowGallery()
+    {
+        Console.WriteLine("My Renaissance Art Gallery");
+
+    }
+}
 class Program
 {
-    public static void ShowMedicineSchedule()
+    
+    public static void Main(string[] args)
     {
-        /* Format and display medicine times */
-        int[] times = {800, 1200, 1600, 2000}; 
 
-        foreach (int val in times)
+        string[] artists = {
+            "Leonardo Da Vinci",
+            "Michelangelo",
+            "Raphael",
+            "Donatello",
+            "Titian",
+            "Sandro Botticelli",
+            "El Greco",
+            "Caravaggio",
+            "Hieronymus Bosch",
+        };
+
+        Queue <int> artworksTotal = new Queue<int>();
+        artworksTotal.Enqueue(20);
+        artworksTotal.Enqueue(40);
+        artworksTotal.Enqueue(60);
+        artworksTotal.Enqueue(30);
+        artworksTotal.Enqueue(100);
+        artworksTotal.Enqueue(50);
+        artworksTotal.Enqueue(120);
+        artworksTotal.Enqueue(80);
+        artworksTotal.Enqueue(25);
+
+
+        for(int x = 0; x < artists.Length; x++)
         {
-            string time = val.ToString();
-            int len = time.Length;
-
-            if (len >= 3)
-            {
-                time = time.Insert((len - 2), ":");
-            }
-            else if (len == 2)
-            {
-                time = time.Insert(0, "0:");
-            }
-            else
-            {
-                time = time.Insert(0, "0:0");
-            }
-            Console.Write($"{time}");
+            Console.WriteLine(artists[x]);
         }
-    }
 
-    public static void AdjustMedicineSchedule()
-    {
-        int[] times = {800, 1200, 1600, 2000}; 
-        int diff = 0;
+        // Dictionary <string, int> renaissance = new Dictionary <string, int> ();
+        // renaissance.Add("Leonardo", 20);
+        // renaissance.Add("Michelangelo", 40);
+        // renaissance.Add("Raphael", 60);
+        // renaissance.Add("Donatello", 30);
+        // renaissance.Add("Titian", 100);
+        // renaissance.Add("Sandro Botticelli", 50);
+        // renaissance.Add("El Greco", 120);
+        // renaissance.Add("Caravaggio", 80);
+        // renaissance.Add("Hieronymus Bosch", 25);
 
-        for(int x = 0; x < times.Length; x++)
-        {
-            times[x] = (times[x] + diff) % 2400;
-        }
-    }
 
-    static void Main(string[] args)
-    {
-        int[] times = {800, 1200, 1600, 2000};
-        int diff = 0;
-
-        Console.WriteLine("Enter current GMT");
-        int currentGMT = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Current Medicine Schedule:");
-        ShowMedicineSchedule();
-
-        Console.WriteLine("Enter new GMT");
-        int newGMT = Convert.ToInt32(Console.ReadLine());
-
-        if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
-        {
-            Console.WriteLine("Invalid GMT");
-        }
-        else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0) 
-        {
-            diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
-            AdjustMedicineSchedule();
-        } 
-        else 
-        {
-            diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
-            AdjustMedicineSchedule();
-        }
     }
 }
