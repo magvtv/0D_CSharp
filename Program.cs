@@ -37,7 +37,7 @@ class Renaissance
 
     public void AddArtist()
     {
-
+        
     }
 
     public void AddArtwork()
