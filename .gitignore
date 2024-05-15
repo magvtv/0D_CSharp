@@ -3,3 +3,6 @@
 C-Sharp.csproj
 C-Sharp.sln
 csharp.txt
+.editorconfig
+Donatello/
+DaVinci/
