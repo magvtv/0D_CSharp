@@ -32,51 +32,45 @@ namespace Renaissance
 
     class Renaissance
     {
-        private Dictionary<string, Artist> artists;
+        private Dictionary<int, Artist> artists;
+        private int nextArtistKey = 0;
         public Renaissance()
         {
-            artists = new Dictionary<string, Artist> ();
+            artists = new Dictionary<int, Artist> ();
         }
 
-        public void AddArtist(string name)
+        public int AddArtist(string name)
         {
             // check whether there is any existing name similar to the input
-            if(!artists.ContainsKey(name))
-            {
-                artists[name] = new Artist(name);
-                Console.WriteLine($"Successfully added {name}");
-            }
-            else
-            {
-                Console.WriteLine($"{name} already exists");
-            }
+            artists[nextArtistKey] = new Artist(name);
+            Console.WriteLine($"Successfully added {name} (key: {nextArtistKey})");
+            return nextArtistKey++;
         }
 
-        public void AddArtwork(string artistName, string title, string summary)
+        public void AddArtwork(int artistKey, string title, string summary)
         {
-            if(artists.TryGetValue(artistName, out Artist artist))
+            if(artists.TryGetValue(artistKey, out Artist artist))
             {
                 artist.AddArtwork(title, summary);
-                Console.WriteLine($"Successfully added the '{title}' by {artistName}");
+                Console.WriteLine($"Added the '{title}' by {artist.Name}");
             }
             else
             {
-                Console.WriteLine($"Could not find {artist}");
+                Console.WriteLine($"Artist with key {artistKey} not found.");
             }
 
         }
         public void ShowGallery()
         {
             Console.WriteLine("Renaissance Art Gallery");
-            foreach(var person in artists)
+            foreach (var person in artists)
             {
                 Console.WriteLine($"Artist: {person.Value.Name}");
-                foreach(var piece in person.Value.Artworks)
+                foreach (var piece in person.Value.Artworks)
                 {
                     Console.WriteLine($"Artwork:\n- {piece.Key}\n{piece.Value.Summary}");
                 }
             }
-
         }
     }
     class Program
@@ -84,15 +78,29 @@ namespace Renaissance
         static void Main(string[] args)
         {
             Renaissance gallery = new Renaissance();
-            gallery.AddArtist("Leonardo da Vinci");
-            gallery.AddArtist("Sandro Botticelli");
-            gallery.AddArtist("Michelangelo");
+            Console.Write($"How many artists into the gallery? ");
+            int numArtist = int.Parse(Console.ReadLine());
+            for(int x = 0; x < numArtist; x++)
+            {
+                Console.Write($"{x + 1}.Enter artist\'s name: ");
+                string artistName = Console.ReadLine();
+                gallery.AddArtist(artistName);
+            }
 
-            gallery.AddArtwork("Leonardo da Vinci", "Mona Lisa", "The potrait bears strong resemblance to the Virgin Mary - who was seen as an ideal for womanhood");
-            gallery.AddArtwork("Sandro Botticelli", "Primavera", "Large panel tempera painting depicting figures from mythology");
-            gallery.AddArtwork("Michelangelo", "David", "A colossal masterpiece sculpture made of marble");
+            Console.WriteLine($"Enter number of artworks to insert: ");
+            int numArtworks = int.Parse(Console.ReadLine());
+
+            for(int y = 0; y < numArtworks; y++)
+            {
+                Console.Write($"Enter the artist key: ");
+                int artistKey = int.Parse(Console.ReadLine());
+                Console.Write($"{y + 1}.Enter title of the artwork: ");
+                string artworkTitle = Console.ReadLine();
+                Console.WriteLine($"Enter summary of {artworkTitle}:");
+                string artworkSummary = Console.ReadLine();
+                gallery.AddArtwork(artistKey, artworkTitle, artworkSummary);
+            }
             gallery.ShowGallery();
-
         }
     // public static void Main(string[] args)
     // {
