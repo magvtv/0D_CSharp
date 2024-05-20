@@ -73,7 +73,7 @@ namespace Renaissance
                 Console.WriteLine($"Artist: {person.Value.Name}");
                 foreach(var piece in person.Value.Artworks)
                 {
-                    Console.WriteLine($"{piece.Key}\n {piece.Value.Summary}");
+                    Console.WriteLine($"Artwork:\n- {piece.Key}\n{piece.Value.Summary}");
                 }
             }
 
@@ -88,8 +88,9 @@ namespace Renaissance
             gallery.AddArtist("Sandro Botticelli");
             gallery.AddArtist("Michelangelo");
 
-            gallery.AddArtwork("Leonardo da Vinci", "Mona Lisa", "bears strong resemblance to the Virgin Mary - who was seen as an ideal for womanhood");
-
+            gallery.AddArtwork("Leonardo da Vinci", "Mona Lisa", "The potrait bears strong resemblance to the Virgin Mary - who was seen as an ideal for womanhood");
+            gallery.AddArtwork("Sandro Botticelli", "Primavera", "Large panel tempera painting depicting figures from mythology");
+            gallery.AddArtwork("Michelangelo", "David", "A colossal masterpiece sculpture made of marble");
             gallery.ShowGallery();
 
         }
