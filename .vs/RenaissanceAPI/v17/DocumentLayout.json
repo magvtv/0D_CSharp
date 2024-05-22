@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|c:\\users\\ph.magutu\\onedrive\\desktop\\pycs experience\\c-sharp\\renaissanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|c:\\users\\ph.magutu\\onedrive\\desktop\\pycs experience\\c-sharp\\renaissanceapi\\services\\wikipediaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|solutionrelative:services\\wikipediaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|c:\\users\\ph.magutu\\onedrive\\desktop\\pycs experience\\c-sharp\\renaissanceapi\\controllers\\renaissancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|solutionrelative:controllers\\renaissancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|c:\\users\\ph.magutu\\onedrive\\desktop\\pycs experience\\c-sharp\\renaissanceapi\\models\\artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|solutionrelative:models\\artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|c:\\users\\ph.magutu\\onedrive\\desktop\\pycs experience\\c-sharp\\renaissanceapi\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B781B565-DC37-4AB5-AD65-102028CBB927}|RenaissanceAPI.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Models\\Artist.cs",
+              "ToolTip": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Models\\Artist.cs*",
+              "RelativeToolTip": "Models\\Artist.cs*",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAzwAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:01:22.577Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Artwork.cs",
+              "DocumentMoniker": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Models\\Artwork.cs",
+              "RelativeDocumentMoniker": "Models\\Artwork.cs",
+              "ToolTip": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Models\\Artwork.cs*",
+              "RelativeToolTip": "Models\\Artwork.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:02:13.6Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenaissanceController.cs",
+              "DocumentMoniker": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Controllers\\RenaissanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RenaissanceController.cs",
+              "ToolTip": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Controllers\\RenaissanceController.cs*",
+              "RelativeToolTip": "Controllers\\RenaissanceController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:36:50.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:29:30.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WikipediaService.cs",
+              "DocumentMoniker": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Services\\WikipediaService.cs",
+              "RelativeDocumentMoniker": "Services\\WikipediaService.cs",
+              "ToolTip": "C:\\Users\\ph.magutu\\OneDrive\\Desktop\\PYCS Experience\\C-Sharp\\RenaissanceAPI\\Services\\WikipediaService.cs*",
+              "RelativeToolTip": "Services\\WikipediaService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:06:17.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
